@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 20
       - run: npm install  # <-- Tambahan baris ini
-      - run: npm ci
+      - run: npm ci --force
       - run: npm test
 
   publish-npm:
