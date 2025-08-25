@@ -94,7 +94,7 @@ connectToWhatsApp();
 
 ## API
 
-The `@nathan` package exposes a comprehensive API consistent with the Baileys design. Key exports include:
+The `nathan` package exposes a comprehensive API consistent with the Baileys design. Key exports include:
 
 *   `makeWASocket`: The primary function to create a WhatsApp socket connection.
 *   `proto`: Protocol buffer definitions for WhatsApp messages and other data structures.
